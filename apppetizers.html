@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Management System</title>
+    <link rel="stylesheet" href="apppetizers.css">
+    <link rel="java" href="jj.js">
+</head>
+<body>
+    <header>
+        <h1>Recipe Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="" onclick="filterCategory('all')">All</a></li>
+                <li><a href="#" onclick="filterCategory('appetizers')">Appetizers</a></li>
+                <li><a href="#" onclick="filterCategory('main-course')">Main Course</a></li>
+                <li><a href="#" onclick="filterCategory('desserts')">Desserts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="recipe-list">
+           
+            <!-- Recipe cards will be dynamically inserted here -->
+        </div>
+    </main>
+
+    <script src="jj.js"></script>
+</body>
+</html>
